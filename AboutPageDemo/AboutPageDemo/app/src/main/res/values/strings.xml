@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AboutPageDemo</string>
+    <string name="title_activity_google_maps_api">google_maps_api</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

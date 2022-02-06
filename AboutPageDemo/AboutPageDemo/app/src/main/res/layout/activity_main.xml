@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/user"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="19dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/img"></ImageView>
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="203dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@id/location"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="163dp"
+        android:text="User Information"
+        android:textColor="#F6F8F8" />
+
+    <Button
+        android:id="@+id/btnShowAbout"
+        android:layout_width="203dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="203dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@id/btnShowAbout"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-83dp"
+        android:text="Location" />
+
+
+</RelativeLayout>
